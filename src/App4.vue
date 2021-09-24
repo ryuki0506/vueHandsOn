@@ -23,7 +23,7 @@ export default {
     },
     methods: {
         appAction(message){
-            this.result="(you send '"+message+"' )"
+            this.result=`(you send '${message}' )`
         }
     },
 }

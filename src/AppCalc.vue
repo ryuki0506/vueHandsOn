@@ -8,6 +8,7 @@
       <button class="btn btn-danger" @click="doClear">Clear Log</button>
     </div>
   </div>
+  
 </template>
 
 <script>

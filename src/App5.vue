@@ -1,9 +1,7 @@
 <template>
     <div id="app">
         <h1>テンプレート参照</h1>
-        <HelloWorld :title="message" @result-event="appAction"></HelloWorld>
-        <hr>
-        <p>{{result}}</p>
+        <HelloWorld title="Hello"></HelloWorld>
     </div>
 </template>
 
@@ -14,17 +12,6 @@ export default {
     name:'App',
     components:{
         HelloWorld
-    },
-    data() {
-        return {
-            message:'Hello',
-            result:''
-        }
-    },
-    methods: {
-        appAction(message){
-            this.result="(you send '"+message+"' )"
-        }
     },
 }
 </script>
